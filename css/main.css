@@ -1,0 +1,34 @@
+body{
+background-color:black;
+height: 100%;
+background-size: 100% 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: monospace;
+
+}
+
+.content{
+background-color:white;   
+border-radius: 15px;   
+margin: 0 auto; 
+height: 90%;
+}
+
+.card-bg
+{
+    background-color:white;
+    margin:60px; 
+    padding: 40px; 
+}
+.right{
+    float:right;
+    margin:10px;
+    position: relative;
+    padding:20px;
+}
+

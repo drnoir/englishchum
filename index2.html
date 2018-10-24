@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>EnglishChumBot</title>
+  <meta name="description" content="EnglishChum Chatbot">
+  <meta name="Chris Godber" content="chatbot">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+  <script>
+    var myLandbotPopup = new LandbotPopup({
+      index: 'https://landbot.io/u/H-92948-U3J158CLSP37OXGG/index.html',
+    });
+  </script>
+  <script>
+    // Show a proactive message on landbot load
+    myLandbotPopup.on('landbot-load', () => {
+      myLandbotPopup.sendProactive("Hello there!");
+    });
+  </script>
+<div class="container content" style= "background-image: url(images/flag.png); background-size: 100% 100%;">
+    <div class="row-fluid card-bg">
+    
+        <img src = "full.gif" class = "right"/>   
+        <h1>EnglishChum (Alpha) - An EnglishChatBot For Russians</h1>  
+       
+        <h3>A conversational chatbot to aid Russian Speakers in learning English By Chris Godber</h3>
+        <h4>GitHub: <a href ="https://github.com/drnoir">DrNoir</a></h4>
+        <hr>
+        <p>EnglishChum is a chatbot experiment built with Landbot that intereacts with users in a multi-language format, in this case - Russian to English in order to teach users about 
+        common english equivilants to common Russian phrases and words. I am aiming to get it to allow for more open questions, and some measurement of ability
+        as well as develop the responses to seem human and show emotion and humour.</p>
+        <p>Click on the chatbox on the right to chat to your new <strong>EnglishChum!</strong></p>
+        <h4>This is my first go at developing a chatbot. Feedback Welcome - <a href="mailto:chrispgodber@gmail.com">chrispgodber@gmail.com</a></h4>
+        <div class="row-fluid">
+        <h3>Tech Stack:</h3>
+        <ul>
+            <li><strong>Layout / Design</strong> : <a href="https://getbootstrap.com/">Bootstrap 4</a></a></li>
+            <li><strong>Chat Platform</strong> : <a href="https://landbot.io/">Landbot</a> </li>
+        </ul>
+       </div> 
+     
+    </div>
+</div> 
+
+
+</body>
+</html>
+
