@@ -6,3 +6,7 @@ EnglishChum is a chatbot experiment built with Landbot that intereacts with user
 
 ## index.html - Fullscreen example
 ## index2.html - Popup example
+
+# Stack:
+Layout / Design : Bootstrap 4
+Chat Platform : Landbot
